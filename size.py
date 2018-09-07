@@ -31,7 +31,7 @@ def Rs(Q):
 
 def IMF(m,N):
     """The Salpeter initial mass function of a cluster of N stars"""
-    phi0 = N/mp.quad(lambda x: x**(-2.35), [min_mass, max_mass]) # normalizes un-nofrmalized IMF
+    phi0 = N/mp.quad(lambda x: x**(-2.35), [min_mass, max_mass]) # normalizes un-normalized IMF
     phi = phi0*m**(-2.35)
     return phi
 
