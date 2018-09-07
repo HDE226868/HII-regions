@@ -12,7 +12,7 @@ lightyear = 9.461*10**(15) # light-year, in meters
 alpha = 2.6*10**(-19)      # recombination coefficient
 n = 10**(7)                # typical nebular number density
 min_mass = 0.1             # lower range of IMF
-max_mass = 250            # upper range of IMF
+max_mass = 250             # upper range of IMF
 
 def I(nu,T):
     """The Planck function for a blackbody at temperature T"""
